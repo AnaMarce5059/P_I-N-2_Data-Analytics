@@ -17,6 +17,7 @@ En este contexto, se me encargó realizar un análisis completo del sector de te
 - **EDA/EDA_DA.ipynb**: Contiene el análisis exploratorio de los datos. Aquí se documentan todos los pasos realizados, incluyendo la identificación de valores faltantes, outliers, y duplicados, así como la generación de visualizaciones clave.
 - **ETL/ETL_DA.ipynb**: Contiene el proceso de ETL, donde se realiza la limpieza y transformación de los datos para su posterior análisis.
 - **ETL/csv_normalizado**: Carpeta que almacena los archivos CSV normalizados y preparados durante el proceso ETL.
+- **PowerBI/Conectividad-Internet[1].pbix: Contiene el tablero de Power BI utilizado para visualizar los resultados del análisis.
 - **requirements.txt**: Archivo que lista todas las dependencias necesarias para ejecutar el proyecto.
 - **README.md**: Este archivo, que proporciona una visión general del proyecto, la estructura del repositorio, y las instrucciones para su uso.
 
@@ -53,6 +54,27 @@ Los resultados del análisis pueden ser utilizados para construir un dashboard e
 Top 10 Localidades con Mayor Acceso a Internet: Identifica las ciudades con mayor penetración de internet.
 
 Distribución por Tecnologías de Acceso: Muestra cómo se distribuyen los accesos a internet entre diferentes tecnologías.
+
+Detalles del Tablero de Power BI
+El tablero de Power BI proporciona una visualización interactiva de la conectividad a Internet en Argentina, centrándose en las siguientes áreas clave:
+
+Top 10 Localidades con Mayor Acceso a Internet: Identifica las ciudades con mayor penetración de internet.
+
+Distribución por Tecnologías de Acceso: Muestra cómo se distribuyen los accesos a internet entre diferentes tecnologías.
+
+Análisis por Localidades:
+
+Distribución del Acceso por Velocidad: Muestra la cantidad de accesos a Internet en diferentes provincias, destacando que la Ciudad Autónoma de Buenos Aires tiene el mayor número de accesos, mientras que Catamarca registra el menor número.
+
+Comparativo de Accesos: Permite comparar la cantidad de accesos entre diferentes localidades y tipos de tecnología (Fibra Óptica, ADSL, Modem, etc.).
+
+Top 5 Localidades: Presenta las cinco localidades con mayor cantidad de accesos, proporcionando un enfoque en las áreas con más desarrollo de infraestructura de Internet.
+
+Análisis por Tecnología:
+
+Comparación de Tecnologías: Se realiza un análisis de las tecnologías de acceso predominantes, como Banda Ancha Fija y Dial-Up, mostrando su evolución en distintas provincias.
+
+KPI de Aumento de Acceso: Mide el crecimiento en la cantidad de accesos en función de las nuevas tecnologías implementadas, destacando el avance de la fibra óptica en comparación con otras tecnologías.
 
 ## Contribuciones
 
